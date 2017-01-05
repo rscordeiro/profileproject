@@ -1,0 +1,11 @@
+#avatar-pic {
+  max-width: 40%;
+  max-height: 40%;
+  display: table-cell;
+  text-align: center;
+  float: right;
+}
+
+#myname {
+	margin-bottom: 60px;
+}
