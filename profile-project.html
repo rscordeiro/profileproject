@@ -1,14 +1,18 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="stylesheet.css" type="text/css">
+<script src="jssheet.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 <title>Roberto's portfolio</title>
-<body>
+<body data-spy="scroll" data-target=".nav-tabs">
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
       
       <ul class="nav nav-tabs">
-        <li role="presentation" class="active"><a href="#about"><span class="glyphicon glyphicon-education"></span> About</a></li>
-        <li role="presentation"><a href="#portfolio"><span class="glyphicon glyphicon-folder-open"></span> Portfolio</a></li>
-        <li role="presentation"><a href="#contact"><span class="glyphicon glyphicon-bullhorn"></span> Contact</a></li>
+        <li role="presentation" id="about-tab" class="active"><a href="#about"><span class="glyphicon glyphicon-education"></span> About</a></li>
+        <li role="presentation" id="portfolio-tab"><a href="#portfolio"><span class="glyphicon glyphicon-folder-open"></span> Portfolio</a></li>
+        <li role="presentation" id="contact-tab"><a href="#contact"><span class="glyphicon glyphicon-bullhorn"></span> Contact</a></li>
       </ul>
 	  
     </div>
@@ -16,23 +20,40 @@
   
   <div class="container-fluid">
     <div class="jumbotron">
+	  <div class="tab-content" id="tabs">
       <div class="row">
-        <div id="about">
-		  <div class="col-md-12">
+        <div class="active" id="about">
+		  <div class="col-xs-12">
             <h1 class="text-center" id="myname">Roberto Sousa Cordeiro</h1>
 		  </div>
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-6 col-xs-12">
 			  <p>Information Systems' student and not so good in writing about myself.</p>
 			</div>
-			<div class="col-md-6 col-sm-12">
+			<div class="col-md-6 col-xs-12">
 			  <img src="https://s27.postimg.org/ubg0yty3n/2016_08_03_19_03_40.jpg" class="img-circle" id="avatar-pic">
 			</div>
         </div>
       </div>
 	
 	
-      <div id="portfolio"></div>
-      <div id="contact"></div>
+      <div id="portfolio">
+	    <div class="row">
+	      <div class="col-xs-12">
+	        <h2 class="text-center">Portfolio</h2>
+		  </div>
+		  <img class="img-thumbnail col-xs-6 col-md-4" src="http://placehold.it/350x250?text=Roberto's+Portfolio">
+		  <img class="img-thumbnail col-xs-6 col-md-4" src="http://placehold.it/350x250?text=Roberto's+Portfolio">
+		  <img class="img-thumbnail col-xs-6 col-md-4" src="http://placehold.it/350x250?text=Roberto's+Portfolio">
+		  <img class="img-thumbnail col-xs-6 col-md-4" src="http://placehold.it/350x250?text=Roberto's+Portfolio">
+		  <img class="img-thumbnail col-xs-6 col-md-4" src="http://placehold.it/350x250?text=Roberto's+Portfolio">
+		  <img class="img-thumbnail col-xs-6 col-md-4" src="http://placehold.it/350x250?text=Roberto's+Portfolio">
+	    </div>
+	  </div>
+	  
+      <div id="contact">
+	    
+	  </div>
     </div>
+	</div>
   </div>
 </body>
