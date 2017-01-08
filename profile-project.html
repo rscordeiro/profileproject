@@ -6,13 +6,15 @@
 
 <title>Roberto's portfolio</title>
 <body data-spy="scroll" data-target=".nav-tabs">
-  <nav class="navbar navbar-default navbar-fixed-top">
+  <nav class="navbar navbar-right navbar-default navbar-fixed-top">
     <div class="container-fluid">
-      
-      <ul class="nav nav-tabs">
-        <li role="presentation" id="about-tab" class="active"><a href="#about"><span class="glyphicon glyphicon-education"></span> About</a></li>
-        <li role="presentation" id="portfolio-tab"><a href="#portfolio"><span class="glyphicon glyphicon-folder-open"></span> Portfolio</a></li>
-        <li role="presentation" id="contact-tab"><a href="#contact"><span class="glyphicon glyphicon-bullhorn"></span> Contact</a></li>
+	  <div class="navbar-header">
+        <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-home"></span></a>
+	  </div>
+      <ul class="nav nav-tabs navbar-right <!--collapse navbar-collapse"-->>
+        <li id="about-tab" class="active"><a href="#about"><span class="glyphicon glyphicon-education"></span> About</a></li>
+        <li id="portfolio-tab"><a href="#portfolio"><span class="glyphicon glyphicon-folder-open"></span> Portfolio</a></li>
+        <li id="contact-tab"><a href="#contact"><span class="glyphicon glyphicon-bullhorn"></span> Contact</a></li>
       </ul>
 	  
     </div>
@@ -22,7 +24,7 @@
     <div class="jumbotron">
 	  <div class="tab-content" id="tabs">
       <div class="row">
-        <div class="active" id="about">
+        <div id="about">
 		  <div class="col-xs-12">
             <h1 class="text-center" id="myname">Roberto Sousa Cordeiro</h1>
 		  </div>
@@ -51,7 +53,20 @@
 	  </div>
 	  
       <div id="contact">
-	    
+	    <div class="row">
+		  <div class="col-xs-12">
+		    <h2 class="text-center">Contact</h2>
+	      </div>
+		  <div class="col-xs-12">
+		    <ul>
+		      <li><a href="https://github.com/rscordeiro" target="_blank">GitHub</a></li>
+	          <li><a href="https://www.linkedin.com/in/roberto-sousa-cordeiro-a40a2927?trk=nav_responsive_tab_profile_pic" target="_blank">Linkedin</a></li>
+			  <li><a href="https://twitter.com/rs_cordeiro" target="_blank">Twitter</a></li>
+			  <li><a href="https://www.facebook.com/rscordeiro" target="_blank">Facebook</a></li>
+			  <li>roberto.sousacordeiro@gmail.com</li>
+			</ul>
+		  </div>
+		</div>
 	  </div>
     </div>
 	</div>
