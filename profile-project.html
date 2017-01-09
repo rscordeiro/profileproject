@@ -5,18 +5,19 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <title>Roberto's portfolio</title>
-<body data-spy="scroll" data-target=".nav-tabs">
+<body data-spy="scroll" data-target="#mynavtab">
   <nav class="navbar navbar-right navbar-default navbar-fixed-top">
     <div class="container-fluid">
 	  <div class="navbar-header">
         <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-home"></span></a>
 	  </div>
-      <ul class="nav nav-tabs navbar-right <!--collapse navbar-collapse"-->>
+    <div id="mynavtab">
+      <ul class="nav navbar-right nav-tabs" >
         <li id="about-tab" class="active"><a href="#about"><span class="glyphicon glyphicon-education"></span> About</a></li>
         <li id="portfolio-tab"><a href="#portfolio"><span class="glyphicon glyphicon-folder-open"></span> Portfolio</a></li>
         <li id="contact-tab"><a href="#contact"><span class="glyphicon glyphicon-bullhorn"></span> Contact</a></li>
       </ul>
-	  
+	</div>
     </div>
   </nav>
   
